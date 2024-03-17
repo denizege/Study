@@ -19,3 +19,11 @@ print(upper_word)
 items = [("book", 20), ("pen", 5), ("pencil", 2), ("notebook", 10)]
 sorted_items = list(sorted(items, key=lambda item: item[1]))
 print(sorted_items)
+
+
+# Напиши лямбда-выражение, которое принимает строку и возвращает True, если строка является палиндромом,
+# и False в противном случае. Палиндром - это слово, которое читается одинаково слева направо и справа налево.
+# Например, "radar" и "level" являются палиндромами.
+
+revers_ = lambda x: x == x[::-1]
+print(revers_('12321'))
