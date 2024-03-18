@@ -27,3 +27,12 @@ print(sorted_items)
 
 revers_ = lambda x: x == x[::-1]
 print(revers_('12321'))
+
+
+# Напиши лямбда-выражение, которое принимает букву и возвращает количество слов в списке, содержащих эту букву.
+# Например, для буквы "a" результат должен быть 3, потому что в списке есть слова "apple", "banana" и "date".
+
+words = ["apple", "banana", "cherry", "date", "fig"]
+letter = input()
+count = len(list(filter(lambda word: letter in word, words)))
+print(count)
