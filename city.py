@@ -9,8 +9,8 @@ city = input().split()
 i = 0
 while i < len(city):
     if len(city[i]) <= 5:
-        print('НЕТ')
+        print('No')
         break
     i += 1
 else:
-    print('ДА')
+    print('Yes')
