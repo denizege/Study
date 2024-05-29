@@ -1,3 +1,5 @@
+# Использование встроенной библиотеки celendar
+
 import calendar
 
 year = int(input('Введите год: '))
