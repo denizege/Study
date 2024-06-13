@@ -1,3 +1,5 @@
+# Написать функцию для отправки сообщений в телеграмм
+
 def send_telegram_message():
 
     api_key = "api_key"
